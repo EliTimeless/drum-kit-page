@@ -1,18 +1,31 @@
 body {
+  background-image: url(images/ricardo-rojas.jpg);
+  background-size: cover;
+}
+
+.heading {
   text-align: center;
-  background-color: #375c41;
+  font-size: 7rem;
+  color: #ad3045;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 4px 0 #d3ccb8;
 }
 
-h1 {
-  font-size: 5rem;
-  color: #dbedf3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #dada04;
+.drum {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #351e1c;
 }
-
-footer {
-  color: #dbedf3;
-  font-family: sans-serif;
+.foot {
+  display: flex;
+  align-items: flex-end;
+  color: #ad3045;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  padding: 50px 20px;
 }
 
 .a {
@@ -53,7 +66,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #6f7b6e;
+  box-shadow: 0 3px 4px 0 #d3ccb8;
   opacity: 0.5;
 }
 
@@ -63,17 +76,17 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #53725b;
+  border: 5px solid #1e1110;
   font-size: 5rem;
-  font-family: "Arvo", cursive;
+  font-family: "Permanent Marker", cursive;
   line-height: 2;
-  font-weight: 900;
-  color: #da0463;
-  text-shadow: 3px 0 #dbedf3;
+  font-weight: 400;
+  color: #560411;
+  text-shadow: 4px 0 #d3ccb8;
   border-radius: 35px;
   display: inline-block;
   width: 150px;
   height: 150px;
   margin: 10px;
-  background-color: #dbffe5;
+  background-color: white;
 }
